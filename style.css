@@ -485,16 +485,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  align-items: stretch;
 }
 
 .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   padding: 3rem 2rem;
   border-radius: 20px;
   transition: all 0.3s ease;
+  min-height: 360px;
 }
 
 .service-card:hover {
