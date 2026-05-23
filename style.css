@@ -485,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
   gap: 2rem;
   align-items: stretch;
   grid-auto-rows: auto;
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3rem 2rem;
   border-radius: 20px;
   transition: all 0.3s ease;
-  min-height: 320px;
+  min-height: 340px;
 }
 
 .service-card:hover {
